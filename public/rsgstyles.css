@@ -1,0 +1,29 @@
+.mytable{
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #3A3A3A;
+    border-collapse: collapse;
+}
+.mytable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #FFA6A6;
+    background-color: #D56A6A;
+    color: #ffffff;
+}
+.mytable tr:hover td {
+    cursor: pointer;
+}
+.mytable tr:nth-child(even) td{
+    background-color: #F7CFCF;
+}
+.mytable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #FFA6A6;
+    background-color: #ffffff;
+}
